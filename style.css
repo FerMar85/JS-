@@ -1,0 +1,95 @@
+body {
+    margin: 0px;    
+}
+.nav-contenedor {
+    position: sticky;
+    z-index: 3;
+    top:0;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: black;
+}
+.navLogo{
+    justify-self: start;
+    margin-left: 20px;
+    color: aliceblue;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+.ver-carrito {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+}
+/* banner */
+
+.Banner1{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: olivedrab;
+}
+.banner-contenedor{
+    text-align: center;
+    padding: 15% 0;
+}
+.Banner1 h1 {
+    margin: 0;
+    color: whitesmoke;
+    text-shadow: 1px 1px 3px red;
+    font-size: 62px;
+    font-weight: bold;
+}
+.Banner1 p {
+    font-size: 30px;
+    color: antiquewhite;
+    opacity: 0.7;
+    text-shadow: 1px 1px 3px red;
+}
+
+
+
+/* //cards// */
+
+.shop1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+.card{
+    box-shadow: 0 4px 8px black;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.card>img {
+    width: 90%;
+    height: 250px;
+}
+.price {
+    color: yellowgreen;
+    font-size: 22px;
+}
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button:hover{
+    opacity: 0.7;
+}
